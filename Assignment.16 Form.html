@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>Assignment.16 Form</title>
+    </head>
+    <style>
+        body { 
+            background: rgb(243, 233, 89);  
+        }
+    </style>
+    <body>
+        <center>
+            <h1 style="color: black;background-color: gold;height:40px;width:100%;">The World of Fruit</h1>
+            <h1>Fruit Survey</h1>
+            <form method="POST">
+                <table height="300px" width="500px">
+                    <tr>
+                        <th align="right" valign="top">Name</th>
+                        <th>
+                            <input type="text" name="name"/> 
+                        </th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th align="right" valign="top">Address</th>
+                        <th>
+                            <input type="text" name="Add"/> 
+                        </th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th align="right" valign="top">Email</th>
+                        <th>
+                            <input type="email" name="email"/> 
+                        </th>
+                        <th style="color: red;">Missing</th>
+                    </tr>
+                    <tr>
+                        <th align="right" valign="top">How many pieces of fruit</br>do you eat per day?</th>
+                            <td>
+                                <input type="radio" name="1" value="1"/>0</br>
+                                <input type="radio" name="1" value="2"/>1</br>
+                                <input type="radio" name="1" value="3"/>2</br>
+                                <input type="radio" name="1" value="4"/>More than 2
+                            </td>
+                            <th></th>
+                    </tr>
+                    <tr>
+						<th align="right" valign="top">My Favourite fruit</th>
+							<td>
+								<select name="mff" multiple  size="4">
+									<option>Apple</option>
+									<option>Banana</option>
+									<option>Plum</option>
+									<option>Pomegranate</option>
+									<option>Avocado</option>
+									<option>Apricot</option>
+									<option>Cherries</option>
+									<option>Crab apples</option>
+								</select>
+							</td>
+                            <th></th>
+					</tr>
+                    <tr>
+                        <th align="right" valign="top">Would you like a</br>brochure?</th>
+                        <td>
+                            <input type="checkbox" name="box"/>
+                        </td>
+                        <th></th>
+                    </tr>
+                    <tr>
+						<td colspan="3" align="center">
+							<input type="submit" name="save"/>
+                        </td>
+                    </tr>            
+                </table>
+            </form>
+        </center>
+    </body>
+</html>

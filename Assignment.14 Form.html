@@ -1,0 +1,211 @@
+<html>
+    <head>
+        <title>Assignment.14 Form</title>
+    </head>
+    <style>
+        table {
+        border-width:5px;  
+        border-style:dashed;
+        border-color: black;
+        background:linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+        color: ghostwhite;
+        font-family:sans-serif;
+        }
+    </style>
+    <body>
+        <center>
+            <h3 style="color: blue;"><u>Student Registration From Using Table in HTML</u></h3>
+            <form method="POST">
+                <table height="850px" width="710px">
+                    <tr>
+                        <th align="left">First Name</th>
+                        <td>
+                            <input type="text" name="name" maxlength="50"/>
+                        </td>
+                        <th align="left">( Max 50 Characters Allowed )</th>
+                    </tr>
+                    <tr>
+                        <th align="left">Last Name</th>
+                        <td>
+                            <input type="text" name="lname" maxlength="50"/>
+                        </td>
+                        <th align="left">( Max 50 Characters Allowed )</th>
+                    </tr>
+                    <tr>
+                        <th align="left">Email ID</th>
+                        <td>
+                            <input type="email" name="email" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th align="left">Mobile Number</th>
+                        <td>
+                            <input type="tel" name="tel" maxlength="10"/>
+                        </td>
+                        <th align="left">( 10 Digits Allowed )</th>
+                    </tr>
+                    <tr>
+                        <th align="left">Gender</th>
+                        <td>
+                            <input type="radio" name="gender" value="male"/>Male
+                            <input type="radio" name="gender" value="female"/>Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <th align="left">Date Of Birth(DOB)</th>
+                        <td>
+						    <select name="Day">
+                                <option selected disabled>-Day-</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>11</option>
+                                <option>12</option>
+                                <option>13</option>
+                                <option>14</option>
+                                <option>15</option>
+                                <option>16</option>
+                                <option>17</option>
+                                <option>18</option>
+                                <option>19</option>
+                                <option>20</option>
+                                <option>21</option>
+                                <option>22</option>
+                                <option>23</option>
+                                <option>24</option>
+                                <option>25</option>
+                                <option>26</option>
+                                <option>27</option>
+                                <option>28</option>
+                                <option>29</option>
+                                <option>30</option>
+                                <option>31</option>
+						    </select>
+                            <select name="Month">
+                                <option selected disabled>-Month-</option>
+                                <option>January</option>
+                                <option>February</option>
+                                <option>March</option>
+                                <option>April</option>
+                                <option>May</option>
+                                <option>June</option>
+                                <option>July</option>
+                                <option>August</option>
+                                <option>September</option>
+                                <option>October</option>
+                                <option>November</option>
+                                <option>December</option>
+                            </select>
+                            <select name="Year">
+                                    <option selected disabled>-Year-</option>
+                                    <option>2000</option>
+                                    <option>2001</option>
+                                    <option>2002</option>
+                                    <option>2003</option>
+                                    <option>2004</option>
+                                    <option>2005</option>
+                                    <option>2006</option>
+                                    <option>2007</option>
+                                    <option>2008</option>
+                                    <option>2009</option>
+                                    <option>2010</option>
+                                    <option>2011</option>
+                                    <option>2012</option>
+                                    <option>2013</option>
+                                    <option>2014</option>
+                                    <option>2015</option>
+                                    <option>2016</option>
+                                    <option>2017</option>
+                                    <option>2018</option>
+                                    <option>2019</option>
+                                    <option>2020</option>
+                                    <option>2021</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th align="left">Address</th>
+                        <td colspan="2">
+                            <textarea name="Add" style="resize:none" rows="10" cols="45"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th align="left">City</th>
+                        <td>
+                            <input type="text" name="city" maxlength="50"/>
+                        </td>
+                        <th align="left">( Max 50 Characters Allowed )</th>
+                    </tr>
+                    <tr>
+                        <th align="left">Pin Code</th>
+                        <td>
+                            <input type="tel" name="Pin" maxlength="6"/>
+                        </td>
+                        <th align="left">( Max 6 Numbers Allowed )</th>
+                    </tr>
+                    <tr>
+                        <th align="left">State</th>
+                        <td>
+                            <input type="text" name="state" maxlength="50"/>
+                        </td>
+                        <th align="left">( Max 50 Characters Allowed )</th>
+                    </tr>
+                    <tr>
+                        <th align="left">Country</th>
+                        <td>
+                            <input type="text" name="Country"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th align="left">Hobbies</th>
+                            <td colspan="2">
+                                <input type="checkbox" name="hobby" value="Drawing"/>Drawing
+                                <input type="checkbox" name="hobby" value="Singing"/>Singing
+                                <input type="checkbox" name="hobby" value="Dancing"/>Dancing
+                                <input type="checkbox" name="hobby" value="Sketching"/>Sketching</br>
+                                <input type="checkbox" name="hobby" value="Others"/>Others
+                                <input type="text" name="hobby" value="" maxlength="50" placeholder="Ex- Teaching"/>&nbsp;( Max 50</br>Characters Allowed )
+                            </td>
+                    </tr>
+                    <tr>
+                        <th align="left">Qualification</th>
+                            <td>
+                                <input type="checkbox" name="10" value="10"/>High school(10th)</br>
+                                <input type="checkbox" name="12" value="12"/>Higher School(12th)</br>
+                                <input type="checkbox" name="15" value="15"/>Graduation(Bachelors)</br>
+                                <input type="checkbox" name="17" value="17"/>Post Graduation(Masters)</br>
+                                <input type="checkbox" name="19" value="19"/>Phd</br>
+                            </td>
+                    </tr>
+                    <tr>
+                        <th align="left">Courses</br>Applied For</th>
+                            <td>
+                                <input type="checkbox" name="1" value="1"/>BCA(Bachelor Of Computer Applications)</br>
+                                <input type="checkbox" name="2" value="2"/>B.Com(Bachelor Of Ccommerce)</br>
+                                <input type="checkbox" name="3" value="3"/>B.Sc(Bachelor Of Science)</br>
+                                <input type="checkbox" name="4" value="4"/>BA(Bachelor Of Arts)</br>
+                                <input type="checkbox" name="5" value="5"/>MCA(Master Of Computer Applications)</br>
+                                <input type="checkbox" name="6" value="6"/>M.Com(Master Of Commerce)</br>
+                                <input type="checkbox" name="7" value="8"/>M.Sc(Master Of Science)</br>
+                                <input type="checkbox" name="9" value="9"/>MA(Master Of Arts)</br>
+                            </td>
+                    </tr>
+                    <tr>
+						<td colspan="3" align="center">
+								<input type="submit" name="save"/>
+								<input type="reset" name="reset"/>	
+						</td>
+					</tr>
+                </table>
+            </form>
+        </center>
+    </body>
+</html>
